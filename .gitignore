@@ -1,0 +1,25 @@
+# Dependencies — never commit these
+node_modules/
+
+# Build output — never commit this
+dist/
+
+# GitHub Actions — not needed on GitHub
+.github/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
